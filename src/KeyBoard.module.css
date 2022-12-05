@@ -1,0 +1,22 @@
+.btn {
+  width: 100%;
+  background: none;
+  border: 3px solid black ;
+  font-size: 4rem;
+  cursor: pointer;
+}
+
+
+.active {
+  background: hsl(200, 100%, 75%);
+  color: #fff;
+}
+
+.inactive {
+  opacity: 0.3;
+}
+
+
+.btn:hover:not(:disabled) {
+  background-color: hsl(200, 100%, 75%);
+}
